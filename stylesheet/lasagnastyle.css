@@ -57,7 +57,13 @@ h1 {
 }
 
 .method {
-    margin: 20px;
+    line-height: 18px;
+    width: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(2, 34, 2);
+    list-style-type: lower-roman;
+    list-style-position: inside;
 }
+
 
 
