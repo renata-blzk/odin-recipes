@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(141, 228, 141);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.header {
+    font-size: 40px;
+    color: rgb(250, 234, 6);
+    text-shadow: 6px 6px 10px rgb(13, 1, 65);
+}
+
+.time {
+    font-size: 15px;
+    color: rgb(0, 0, 46);
+}
+
+.description {
+    text-decoration: overline dashed rgb(71, 71, 71);
+    color:rgb(0, 0, 46);
+    text-shadow: 2px 2px 5px rgb(224, 241, 253);
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style-position: outside;
+    color:rgb(0, 0, 46); 
+    line-height: 25px;
+    text-align: left;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-greek;
+}
+
+h2 {
+    color: rgb(13, 75, 95);
+    width: 300px;
+    text-shadow: 5px 5px 8px rgb(199, 199, 240);
+    text-decoration: underline dotted rgb(250, 184, 1);
+    border-style: solid;
+    border-width: 0.5px;
+    margin: auto;
+    padding: auto;
+}
