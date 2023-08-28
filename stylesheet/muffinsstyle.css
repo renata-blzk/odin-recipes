@@ -5,6 +5,7 @@ body {
     border: solid;
     padding: 20px;
     margin: auto;
+    color: rgb(56, 2, 56);
 }
 
 h3 {
@@ -32,7 +33,30 @@ ul, .ing {
     margin-right: auto;
 }
 
-.ing {
-    padding-top: 18px;
+h1 {
+    color:rgb(56, 2, 56);
+    text-shadow: 5px 5px 8px rgb(247, 72, 72);
+    text-decoration: underline double violet;
 }
 
+.intro {
+    color: rgb(102, 1, 1);
+    text-decoration: overline green;
+}
+
+.ing, .method {
+    padding: 18px;
+    color: rgb(1, 46, 1);
+    text-shadow: 5px 5px 10px rgb(218, 233, 134);
+    text-decoration: underline dotted brown;
+}
+
+.method {
+    padding-top: 35px;
+}
+
+ol {
+    list-style: none;
+    text-align: middle;
+    color: rgb(65, 17, 17);
+}
