@@ -2,7 +2,7 @@ body {
     background-color: rgb(240, 170, 170);
     text-align: center;
     width: 690px;
-    border: solid;
+    border: 5px solid rgb(1, 46, 1);
     padding: 20px;
     margin: auto;
     color: rgb(56, 2, 56);
