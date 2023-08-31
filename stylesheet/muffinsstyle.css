@@ -21,16 +21,19 @@ div.time {
 
 img {
     width: 250px;
-    padding: 20px 40px 2px 20px;
-    margin: auto;
+    float: left;
+    padding: none;
+    margin: 20px;
+    margin-right: 40px;
+    border: 12px solid rgb(65, 4, 4);
 }
 
 ul, .ing {
     list-style-position: outside;
     text-align: left;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-style: italic;
 }
 
 h1 {
@@ -44,7 +47,7 @@ h1 {
     text-decoration: overline green;
 }
 
-.ing, .method {
+.ing {
     padding: 18px;
     color: rgb(1, 46, 1);
     text-shadow: 5px 5px 10px rgb(218, 233, 134);
@@ -53,6 +56,8 @@ h1 {
 
 .method {
     padding-top: 35px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 ol {
