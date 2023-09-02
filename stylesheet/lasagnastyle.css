@@ -13,17 +13,28 @@ h1 {
 .lasagna {
     width: 300px;
     height: auto;
-    float: left;
-    display: inline-block;
+    border: 2px solid rgb(44, 0, 0);
     margin: 20px;
+    display: inline-flex;
+    float: left;
 }
 
-.description, .ingredients {
-    margin-top: 35px;
-    padding-left: 20px;
+.block {
+    border: 10px solid rgb(250, 198, 241);
+    margin: 20px;
+    padding: 5px;
+}
+
+.description, .paragraph {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(13, 1, 29);
     font-style: italic;
+    border: 2px solid black;
+    display: inline-flex;
+    width: 880px;
+    margin-top: 20px;
+    padding: 5px;
+
 }
 
 .ingredients {
@@ -32,10 +43,10 @@ h1 {
 }
 
 .paragraph {
-    margin-top: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(7, 7, 59);
     text-decoration: overline red;
+    margin-top: -1px;
 }
 
 .product {
