@@ -5,6 +5,7 @@ body {
     border: 5px solid rgb(1, 46, 1);
     padding: 20px;
     margin: auto;
+    margin-top: 10px;
     color: rgb(56, 2, 56);
 }
 
@@ -31,9 +32,8 @@ img {
 ul, .ing {
     list-style-position: outside;
     text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
     font-style: italic;
+    font-size: 16px;
 }
 
 h1 {
@@ -47,21 +47,42 @@ h1 {
     text-decoration: overline green;
 }
 
-.ing {
-    padding: 18px;
+#ing {
     color: rgb(1, 46, 1);
     text-shadow: 5px 5px 10px rgb(218, 233, 134);
     text-decoration: underline dotted brown;
+    text-align: left;
+    padding-left: 15px;
 }
 
 .method {
-    padding-top: 35px;
-    margin-top: 40px;
     text-align: center;
 }
 
 ol {
     list-style: none;
-    text-align: middle;
+    text-align: left;
     color: rgb(65, 17, 17);
+}
+
+.boxone {
+    border: 1px solid rgb(68, 1, 1);
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    height: 250px;
+    float: right;
+    background-color: pink;
+}
+
+.boxtwo {
+    border: 1px solid rgb(68, 1, 1);
+    margin: auto;
+    padding: 15px;;
+    background-color: pink;
+    width: 620px;
+    height: 300px;
+    overflow-y: scroll;
 }
